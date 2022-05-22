@@ -1,0 +1,70 @@
+/* Fuente de letra descargada */
+@font-face {
+    font-family: Vanilla;
+    src: url(Vanilla.ttf);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.color p, .color h3{
+    align-self: center;
+    margin-left: 20px;
+}
+.D3F8E2{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(211, 248, 226);
+}
+.A9DEF9{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(169, 222, 249);
+}
+.F694C1{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(246, 148, 193);
+}
+.E4C1F9{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(228, 193, 249);
+}
+.EDE7B1{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(237, 231, 177);
+}
+.A80ED99{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(128, 237, 153);
+}
+.header{
+    font-family: Vanilla;
+}
+.cursive{
+    font-family: cursive;
+}
+.icon img{
+    width: 200px;
+    height: auto;
+}
