@@ -53,6 +53,9 @@ html {
     nav button{
         display: none;
     }
+    #pop{
+        display: none;
+    }
 
     /* Body */
     body{
@@ -147,12 +150,25 @@ html {
         justify-content: center;
         font-size: 3vw;
         background-color: rgb(128, 237, 153);
+        padding-bottom: 3%;
     }
     .seccion4 h3{
-        padding: 2% 0%;
+        padding: 3% 0%;
     }
-    .seccion4 p{
+    .seccion4 label{
         font-family: cursive;
+    }
+    .seccion4 input{
+        height: 3vw;
+    }
+    .seccion4 input::placeholder, .seccion4 input{
+        font-size: 2vw;
+    }
+    .seccion4 button{
+        margin: 10px 0px;
+        width: 15vw;
+        font-size: 2vw;
+        background-color: rgb(55, 221, 240);
     }
 
     /* Footer */
@@ -191,6 +207,22 @@ html {
         margin-right: 20px;
         font-size: 6vw;
         width: 10vw;
+    }
+    #pop {
+        border: 2px solid #000;
+        background-color: rgb(237, 231, 177);
+        position: absolute;
+        right: 5%;
+        top: 85%;
+        width: 50%;
+        height: auto;
+        display: none;
+    }
+    #pop a{
+        display: block;
+        color: black;
+        margin: 8%;
+        font-size: 30px;
     }
 
     /* Body */
@@ -284,17 +316,30 @@ html {
     /* Cuarta sección */
     .seccion4{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
         font-size: 4.5vw;
         background-color: rgb(128, 237, 153);
+        padding: 3%;
     }
     .seccion4 h3{
-        padding: 2% 0%;
+        padding: 3% 0%;
     }
-    .seccion4 p{
+    .seccion4 label{
         font-family: cursive;
+    }
+    .seccion4 input{
+        height: 5vw;
+    }
+    .seccion4 input::placeholder, .seccion4 input{
+        font-size: 4vw;
+    }
+    .seccion4 button{
+        margin: 10px 0px;
+        width: 20vw;
+        font-size: 4vw;
+        background-color: rgb(55, 221, 240);
     }
 
     /* Footer */
